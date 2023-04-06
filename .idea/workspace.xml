@@ -4,57 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f927b0-de78-4d65-9af8-122da1e458d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/ApiRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/BaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/OrderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/PageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/StationsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CouriersTestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AdditionalCourierDeleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateCourierTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateOrdersParamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginCourierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NegativeCreateCourierTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrderListTestWOParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/06e96eae-f660-498b-aa3c-9dc59f2f402b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/13e0072a-505b-4d6a-b102-28f3a0bdab55-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/200aac79-44a8-42f1-b83a-38ec539e3fa9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/363ef509-d4eb-4dd4-9739-26b6871cdcf3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/364de235-b1a7-4fac-b129-fbbf834fd427-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/367c5162-fed6-4e2e-8031-49d7e9216f6e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/421043d2-2388-4245-8666-26347d54d048-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/548befd0-d06e-4853-9e13-109391265f56-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/5fc42bc8-24d8-4bf9-8dd8-ea92d0c86817-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/64bfc714-3c8f-4c6a-9f14-71754b3cff50-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/777eed8d-3285-4aee-beb9-871ed73330cf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/7926eb0f-2ec9-400b-a2d3-b74ed99a2324-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/7a0064cb-6570-4de0-8d06-8692ce6ebe8a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/91f4ec68-19d6-42aa-819b-20660d6ba59a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/93f2368d-a91d-478f-92c8-0b3ec9f9b41c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/952662ec-7f4d-4720-aba2-c7b1a12972e7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/983eda91-bb6f-4298-9120-cf897c69cb90-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/9b0ee29c-9472-40f0-a284-f641f01560c1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/9b22cf14-8ccb-4e9d-8e55-b56598c6cf20-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/9b2fc2a8-02b7-4bd1-911c-c7b451d2a0ea-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/af09a39a-d030-4af1-8b00-aa5a8c871d5d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/b60f6127-2cf9-485f-b739-8441e64601de-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/d41d3647-615a-4741-927e-9855c6b42763-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/de51b42c-13da-43be-8358-e607ebc174e0-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="28f927b0-de78-4d65-9af8-122da1e458d6" name="Changes" comment="First release">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateCourierTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateCourierTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderListTestWOParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderListTestWOParam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +69,7 @@
       <command value=" mvn clean test " />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AdditionalGetOrderTest.checkOrdersList">
+  <component name="RunManager" selected="JUnit.java in Sprint_7">
     <configuration name="AdditionalGetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="PACKAGE_NAME" value="" />
@@ -123,32 +79,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalGetOrderTest.checkOrdersList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalGetOrderTest.checkOrdersListWOOrdersTrack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AdditionalGetOrderTest" />
-      <option name="METHOD_NAME" value="checkOrdersList" />
+      <option name="METHOD_NAME" value="checkOrdersListWOOrdersTrack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginCourierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalGetOrderTest.checkOrdersListWithIncorrectTrack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginCourierTest" />
+      <option name="MAIN_CLASS_NAME" value="AdditionalGetOrderTest" />
+      <option name="METHOD_NAME" value="checkOrdersListWithIncorrectTrack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrdersParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateOrdersParamTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderListTestWOParam.checkOrdersList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrderListTestWOParam" />
-      <option name="METHOD_NAME" value="checkOrdersList" />
-      <option name="TEST_OBJECT" value="method" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdditionalGetOrderTest.checkOrdersList" />
-        <item itemvalue="JUnit.AdditionalGetOrderTest" />
-        <item itemvalue="JUnit.OrderListTestWOParam.checkOrdersList" />
         <item itemvalue="JUnit.java in Sprint_7" />
-        <item itemvalue="JUnit.LoginCourierTest" />
+        <item itemvalue="JUnit.CreateOrdersParamTest" />
+        <item itemvalue="JUnit.AdditionalGetOrderTest" />
+        <item itemvalue="JUnit.AdditionalGetOrderTest.checkOrdersListWOOrdersTrack" />
+        <item itemvalue="JUnit.AdditionalGetOrderTest.checkOrdersListWithIncorrectTrack" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +135,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679932791873</updated>
     </task>
+    <task id="LOCAL-00001" summary="First release">
+      <created>1680774728369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680774728369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +155,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First release" />
+    <option name="LAST_COMMIT_MESSAGE" value="First release" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,8 +175,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="6" />
+          <line>51</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java</url>

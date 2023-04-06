@@ -63,7 +63,6 @@ public class CreateCourierTests extends BaseTest {
         CouriersTestUtils.createCourier(courier)
                 .then()
                 .statusCode(SC_CREATED);
-        String s = "Trying create second courier";
         CouriersTestUtils.createCourier(courier2)
                 .then()
                 .statusCode(SC_CONFLICT);

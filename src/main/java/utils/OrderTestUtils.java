@@ -47,20 +47,20 @@ public class OrderTestUtils {
     @Step("Order accept couriers")
     public static Response orderAccept(Order order, Courier courier) {
 
-        String reqTrackString = ApiRequests.ORDER_ACCEPT;
+        String reqTrackString;
 
         if (order.getTrack() != null) {
             reqTrackString = ApiRequests.ORDER_ACCEPT.replace(":id", order.getTrack().toString());
         } else {
             reqTrackString = ApiRequests.ORDER_ACCEPT.replace(":id", "");
-        };
+        }
 
         RequestSpecification req = given();
         req.contentType(ContentType.JSON);
         if ((courier.getId() != null) && StringUtils.isNumeric(courier.getId())) {
             req.queryParam("courierId", Integer.valueOf(courier.getId()));
         }
-        System.out.println(reqTrackString);
+
         return req.put(reqTrackString);
     }
 

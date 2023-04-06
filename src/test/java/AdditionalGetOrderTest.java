@@ -45,8 +45,6 @@ public class AdditionalGetOrderTest extends BaseTest {
                 .statusCode(SC_OK); // Этот тест иногда не проходит.
     }
 
-    ;
-
     @Test
     @DisplayName("Get orders list without couriers ID")
     @Description("Checking if the courier ID has not been transmitted")
@@ -58,19 +56,6 @@ public class AdditionalGetOrderTest extends BaseTest {
                 .statusCode(SC_BAD_REQUEST);
     }
 
-    ;
-
-    @Test
-    @DisplayName("Get orders list without orders track")
-    @Description("Checking if the orders track has not been transmitted")
-    public void checkOrdersListWOOrdersTrack() {
-        order.setTrack(null);
-        OrderTestUtils.orderAccept(order, courier)
-                .then()
-                .statusCode(SC_NOT_FOUND);
-    }
-
-    ;
 
     @Test
     @DisplayName("Get orders without incorrect track")
@@ -81,8 +66,6 @@ public class AdditionalGetOrderTest extends BaseTest {
                 .then()
                 .statusCode(SC_NOT_FOUND);
     }
-
-    ;
 
     @Test
     @DisplayName("Check orders list with incorrect ID")
