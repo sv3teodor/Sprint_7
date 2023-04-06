@@ -4,21 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f927b0-de78-4d65-9af8-122da1e458d6" name="Changes" comment="" />
+    <list default="true" id="28f927b0-de78-4d65-9af8-122da1e458d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/ApiRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/BaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Courier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/OrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/StationsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CouriersTestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AdditionalCourierDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CreateCourierTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CreateOrdersParamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginCourierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NegativeCreateCourierTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrderListTestWOParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/06e96eae-f660-498b-aa3c-9dc59f2f402b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/13e0072a-505b-4d6a-b102-28f3a0bdab55-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/200aac79-44a8-42f1-b83a-38ec539e3fa9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/363ef509-d4eb-4dd4-9739-26b6871cdcf3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/364de235-b1a7-4fac-b129-fbbf834fd427-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/367c5162-fed6-4e2e-8031-49d7e9216f6e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/421043d2-2388-4245-8666-26347d54d048-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/548befd0-d06e-4853-9e13-109391265f56-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/5fc42bc8-24d8-4bf9-8dd8-ea92d0c86817-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/64bfc714-3c8f-4c6a-9f14-71754b3cff50-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/777eed8d-3285-4aee-beb9-871ed73330cf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/7926eb0f-2ec9-400b-a2d3-b74ed99a2324-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/7a0064cb-6570-4de0-8d06-8692ce6ebe8a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/91f4ec68-19d6-42aa-819b-20660d6ba59a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/93f2368d-a91d-478f-92c8-0b3ec9f9b41c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/952662ec-7f4d-4720-aba2-c7b1a12972e7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/983eda91-bb6f-4298-9120-cf897c69cb90-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/9b0ee29c-9472-40f0-a284-f641f01560c1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/9b22cf14-8ccb-4e9d-8e55-b56598c6cf20-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/9b2fc2a8-02b7-4bd1-911c-c7b451d2a0ea-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/af09a39a-d030-4af1-8b00-aa5a8c871d5d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/b60f6127-2cf9-485f-b739-8441e64601de-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/d41d3647-615a-4741-927e-9855c6b42763-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/de51b42c-13da-43be-8358-e607ebc174e0-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PraktikumTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar!/io/restassured/response/ValidatableResponseOptions.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NbVV7C8b3v4Prx4Uo3yKXSad5P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,9 +91,86 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "D:/fed/Java/Sprint_7",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fed\Java\Sprint_7" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=" mvn clean test, " />
+      <command value=" mvn clean test" />
+      <command value=" mvn clean test " />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AdditionalGetOrderTest.checkOrdersList">
+    <configuration name="AdditionalGetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdditionalGetOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdditionalGetOrderTest.checkOrdersList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdditionalGetOrderTest" />
+      <option name="METHOD_NAME" value="checkOrdersList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginCourierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginCourierTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderListTestWOParam.checkOrdersList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderListTestWOParam" />
+      <option name="METHOD_NAME" value="checkOrdersList" />
+      <option name="TEST_OBJECT" value="method" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in Sprint_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AdditionalGetOrderTest.checkOrdersList" />
+        <item itemvalue="JUnit.AdditionalGetOrderTest" />
+        <item itemvalue="JUnit.OrderListTestWOParam.checkOrdersList" />
+        <item itemvalue="JUnit.java in Sprint_7" />
+        <item itemvalue="JUnit.LoginCourierTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,5 +181,46 @@
       <updated>1679932791873</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CreateCourierTests.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CreateOrdersParamTest.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java</url>
+          <line>39</line>
+          <properties class="AdditionalGetOrderTest" method="checkOrdersList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
