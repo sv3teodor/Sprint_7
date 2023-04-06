@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28f927b0-de78-4d65-9af8-122da1e458d6" name="Changes" comment="First release">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OrderTestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdditionalGetOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateCourierTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateCourierTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderListTestWOParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderListTestWOParam.java" afterDir="false" />
-    </list>
+    <list default="true" id="28f927b0-de78-4d65-9af8-122da1e458d6" name="Changes" comment="First release" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680774728369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First release">
+      <created>1680776135302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680776135302</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
