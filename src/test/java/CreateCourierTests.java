@@ -9,17 +9,18 @@ import utils.CouriersTestUtils;
 
 import static org.apache.http.HttpStatus.SC_CONFLICT;
 import static org.apache.http.HttpStatus.SC_CREATED;
+import static pojo.Courier.makeRandomCourierDate;
 import static utils.CouriersTestUtils.clearTestDate;
 
 public class CreateCourierTests extends BaseTest {
-    private Courier courier;
-    private Courier courier2;
+    private Courier courierFirst;
+    private Courier courierSecond;
 
     @After //Удаляем тестовые данные
     public void cleanTestData() {
-        clearTestDate(courier);
-        if (courier2 != null) {
-            clearTestDate(courier2);
+        clearTestDate(courierFirst);
+        if (courierSecond != null) {
+            clearTestDate(courierSecond);
         }
 
     }
@@ -28,8 +29,8 @@ public class CreateCourierTests extends BaseTest {
     @DisplayName("Courier create test")
     @Description("Create couriers")
     public void createCourier() {
-        courier = new Courier().makeRandomCourierDate();
-        CouriersTestUtils.createCourier(courier)
+        courierFirst = makeRandomCourierDate();
+        CouriersTestUtils.createCourier(courierFirst)
                 .then()
                 .statusCode(SC_CREATED)
                 .and()
@@ -41,11 +42,11 @@ public class CreateCourierTests extends BaseTest {
     @DisplayName("The dough for creating a double")
     @Description("Trying to create a double")
     public void createDoubleCouriers() {
-        courier = new Courier().makeRandomCourierDate();
-        CouriersTestUtils.createCourier(courier)
+        courierFirst = makeRandomCourierDate();
+        CouriersTestUtils.createCourier(courierFirst)
                 .then()
                 .statusCode(SC_CREATED);
-        CouriersTestUtils.createCourier(courier)
+        CouriersTestUtils.createCourier(courierFirst)
                 .then()
                 .statusCode(SC_CONFLICT).body("message", Matchers.is("Этот логин уже используется"));
         //Тут баг- текст возвращаемый системой системы не совпадает с описанием.
@@ -57,16 +58,15 @@ public class CreateCourierTests extends BaseTest {
     @DisplayName("Create couriers with equal logins")
     @Description("Try create two couriers with equal logins")
     public void createCouriersWithEqualLogin() {
-        courier = new Courier().makeRandomCourierDate();
-        courier2 = new Courier().makeRandomCourierDate();
-        courier2.setLogin(courier.getLogin());
-        CouriersTestUtils.createCourier(courier)
+        courierFirst = makeRandomCourierDate();
+        courierSecond = makeRandomCourierDate();
+        courierSecond.setLogin(courierFirst.getLogin());
+        CouriersTestUtils.createCourier(courierFirst)
                 .then()
                 .statusCode(SC_CREATED);
-        CouriersTestUtils.createCourier(courier2)
+        CouriersTestUtils.createCourier(courierSecond)
                 .then()
                 .statusCode(SC_CONFLICT);
-
     }
 
 }

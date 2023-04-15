@@ -9,6 +9,7 @@ import ru.yandex.BaseTest;
 import utils.CouriersTestUtils;
 
 import static org.apache.http.HttpStatus.*;
+import static pojo.Courier.makeRandomCourierDate;
 import static utils.CouriersTestUtils.clearTestDate;
 
 public class LoginCourierTest extends BaseTest {
@@ -16,7 +17,7 @@ public class LoginCourierTest extends BaseTest {
 
     @Before
     public void createCourierForTest() {
-        courier = new Courier().makeRandomCourierDate();
+        courier = makeRandomCourierDate();
         CouriersTestUtils.createCourier(courier);
     }
 
@@ -66,7 +67,7 @@ public class LoginCourierTest extends BaseTest {
     @Test
     @DisplayName("Courier login ")
     @Description("Test login with incorrect password")
-    public void loginCourierWOIncorrectPass() {
+    public void loginCourierIncorrectPass() {
         courier.setPassword(courier.getPassword() + "1");
         CouriersTestUtils.loginCourier(courier)
                 .then()

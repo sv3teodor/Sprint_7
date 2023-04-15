@@ -10,6 +10,7 @@ import utils.CouriersTestUtils;
 import utils.OrderTestUtils;
 
 import static org.apache.http.HttpStatus.*;
+import static pojo.Courier.makeRandomCourierDate;
 import static utils.CouriersTestUtils.clearTestDate;
 import static utils.OrderTestUtils.clearTestOrderDate;
 
@@ -18,11 +19,10 @@ public class AdditionalGetOrderTest extends BaseTest {
     private Courier courier;
 
     @Before
-    public void createOrderForTest() {
-        courier = new Courier().makeRandomCourierDate();
+    public void createOrderAndCourierForTest() {
+        courier = makeRandomCourierDate();
         CouriersTestUtils.createCourier(courier);//Создаем курьера
         courier.setId(CouriersTestUtils.loginCourier(courier).jsonPath().getString("id")); //Логинимся под ним
-
         order = new Order().createRandomOrder();
         order.setTrack(OrderTestUtils.createOrder(order).body().jsonPath().getInt("track"));
     }

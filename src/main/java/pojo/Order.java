@@ -23,10 +23,6 @@ public class Order {
     private Integer id;
     private Integer courierId;
 
-
-    public Order() {
-    }
-
     public String getFirstName() {
         return firstName;
     }

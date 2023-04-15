@@ -50,10 +50,11 @@ public class Courier {
         this.id = id;
     }
 
-    public Courier makeRandomCourierDate() {
-        this.login = RandomStringUtils.randomAlphabetic(3, 10);
-        this.password = RandomStringUtils.randomAlphabetic(3, 8);
-        this.firstName = RandomStringUtils.randomAlphabetic(3, 10);
-        return this;
+    public static Courier makeRandomCourierDate() {
+        Courier courier = new Courier();
+        courier.login = RandomStringUtils.randomAlphabetic(3, 10);
+        courier.password = RandomStringUtils.randomAlphabetic(3, 8);
+        courier.firstName = RandomStringUtils.randomAlphabetic(3, 10);
+        return courier;
     }
 }

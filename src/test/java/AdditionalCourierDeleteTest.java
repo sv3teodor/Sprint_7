@@ -1,7 +1,6 @@
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.hamcrest.Matchers;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import pojo.Courier;
@@ -10,19 +9,14 @@ import utils.CouriersTestUtils;
 
 import static org.apache.http.HttpStatus.SC_NOT_FOUND;
 import static org.apache.http.HttpStatus.SC_OK;
-import static utils.CouriersTestUtils.clearTestDate;
+import static pojo.Courier.makeRandomCourierDate;
 
 public class AdditionalCourierDeleteTest extends BaseTest {
     private Courier courier;
 
     @Before
-    public void createOrderForTest() {
-        courier = new Courier().makeRandomCourierDate();
-    }
-
-    @After //Удаляем тестовые данные
-    public void cleanTestData() {
-        clearTestDate(courier);
+    public void createCourierForTest() {
+        courier = makeRandomCourierDate();
     }
 
     @Test

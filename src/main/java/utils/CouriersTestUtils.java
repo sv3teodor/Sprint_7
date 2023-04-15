@@ -35,7 +35,7 @@ public class CouriersTestUtils {
     }
 
 
-    @Step("Clear test date")
+    @Step("Deleting the courier")
     public static void clearTestDate(Courier courier) {
         //Логинимся под курьером, что бы узнать его id
         //Если курьер найден- удаляем
